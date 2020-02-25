@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8"/>
+    <title>双飞翼布局-中间宽度自适应</title>
+    <link href="https://cdn.bootcss.com/normalize/8.0.1/normalize.min.css" rel="stylesheet">
+    <style type="text/css">
+      body{
+        min-width: 350px; /* 设置一个最小宽度，供center使用 */
+      }
+      .header {
+        height: 100px;
+        background-color: black;
+      }
+      .content {
+        height: 300px;
+        float: left;
+        margin-left: 100px;
+        margin-right: 200px;
+        background-color: cadetblue;
+      }
+
+      .left {
+        width: 100px;
+        float: left;
+        margin-left: -100%;
+        background-color:darkorange
+      }
+
+      .center {
+        width: 100%;
+        background-color: darkslateblue;
+      }
+
+      .right {
+        width: 200px;
+        float: left;
+        margin-left: -200px;
+        background-color: dimgray;
+      }
+      
+      .footer {
+        clear: both;
+        margin: 0 auto;
+        height: 100px;
+        background-color: darkgoldenrod;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="header"></div>
+    <div class="content">
+      <div class="center">
+        As we all know, not every Switch screenshot is created equal. Screenshots taken when your console is docked are going to look subtly different to those captured in handheld mode, not only because of the resolution difference but also due to the fact that the console is operating at a weaker power level when it's away from the TV. As developers have had more time to get to grips with the Switch, we're seeing the gulf between these two standards grow even more noticeable.
+        That's spurred us on to change the way in which we handle Switch screenshots in our reviews. Traditionally, we've simply captured a bunch of screens during gameplay – both in docked and handheld modes – and uploaded them onto the site without any indication of the mode they were taken in. Moving forward, we're going to be more transparent about which mode the screen was taken in so you can see for yourself the difference between the two modes – this is going to be especially interesting to those of you that own a Switch Lite and therefore will only ever experience games in handheld mode.
+      </div>
+    </div>
+    <div class="left">
+      That's spurred us on to change the way in which we handle Switch screenshots in our reviews. Traditionally, we've simply captured a bunch of screens during gameplay – both in docked and handheld modes – and uploaded them onto the site without any indication of the mode they were taken in. Moving forward, we're going to be more transparent about which mode the screen was taken in so you can see for yourself the difference between the two modes – this is going to be especially interesting to those of you that own a Switch Lite and therefore will only ever experience games in handheld mode.
+    </div>
+    <div class="right">
+      That's spurred us on to change the way in which we handle Switch screenshots in our reviews. Traditionally, we've simply captured a bunch of screens during gameplay – both in docked and handheld modes – and uploaded them onto the site without any indication of the mode they were taken in. Moving forward, we're going to be more transparent about which mode the screen was taken in so you can see for yourself the difference between the two modes – this is going to be especially interesting to those of you that own a Switch Lite and therefore will only ever experience games in handheld mode.
+    </div>
+    <div class="footer"></div>
+  </body>
+</html>
